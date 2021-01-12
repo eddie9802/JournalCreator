@@ -9,3 +9,6 @@ COMPILERFLAGS = -std=c++17 -g
 
 all: $(OBJS)
 	$(CC) $(OBJS) $(COMPILERFLAGS) -o $(OBJ_NAME)
+
+clean: 
+	rm ./out/*
