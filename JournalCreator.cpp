@@ -39,8 +39,8 @@ void createJournalFile() {
     string filepath;
     getline(cin, filepath);
 
-    cout << "\nPlease enter the questions you would like to ask the user on addition of journal entries";
-    cout << "\nTo enter a question write out your question and press enter.  If you don't want to enter any more questions enter nothing\n";
+    cout << endl << "Please enter the questions you would like to ask the user on addition of journal entries";
+    cout << endl << "To enter a question write out your question and press enter.  If you don't want to enter any more questions enter nothing" << endl;
 
     vector<string> allQuestions = getJournalQuestions();
 
